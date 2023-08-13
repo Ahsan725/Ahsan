@@ -195,7 +195,7 @@ body{
 }
 .about-img img{
     padding-bottom: 20%;
-    max-width: 630px;
+    max-width: 300px;
     height: auto;
     width: 70%;
     border-radius: 8px;
@@ -595,7 +595,7 @@ body{
     color: var(--secondary-color);
     scale: 1.2;
     /* font-weight: bold; */
-    transition: 1.5s;
+    transition: 2s;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -604,6 +604,7 @@ body{
     box-shadow: 1px 1px 60px rgb(157, 126, 222),
     1px 1px 20px rgba(157, 26, 222);
     margin-top: 30px;
+    text-align: center;
     
 }
 .portfolio{
