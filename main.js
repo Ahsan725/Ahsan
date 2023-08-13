@@ -1,8 +1,9 @@
 var typed = new Typed(".text", {
   strings: [
-    "a Full Stack Developer.",
     "a Software Engineer.",
-    "skilled at Problem Solving.",
+    "a Frontend Developer.",
+    "a Backend Developer.",
+    "UI/UX Designer.",
   ],
   typeSpeed: 100,
   backSpeed: 100,
