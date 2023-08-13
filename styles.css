@@ -209,7 +209,87 @@ body{
     margin-bottom: 4rem;
 }
 
-
+#services{
+    color: var(--primary-color);
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.sub-title span {
+    color: var(--secondary-color);
+}
+.container{
+    padding: 90px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px,1fr));
+    grid-gap: 80px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+  
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; */
+}
+.services-list div:hover{
+    /* background: var(--secondary-color); */
+    color: var(--primary-color);
+    /* box-shadow: 0 0 30px var(--secondary-color); */
+    box-shadow: 1px 1px 60px rgb(157, 126, 222),
+    1px 1px 20px rgba(157, 26, 222);
+    transform: translateY(-10px);
+    scale: 125%;
+    transition: 0.8s;
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.services-list div i {
+    font-size: 80px;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+}
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block
+}
+.read{
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--secondary-color);
+    border-radius: 40px;
+    font-size: 16px;
+    color: var(--background-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+.read:hover{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: 0 0 30px var(--secondary-color);
+}
 
 
 
