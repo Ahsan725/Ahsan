@@ -30,9 +30,9 @@ var typed1 = new Typed(".text1", {
 
 var typed2 = new Typed(".text2", {
   strings: [
-    "Ahsan Baseer",
+    "Ahsan Baseer.",
   ],
-  typeSpeed: 600,
+  typeSpeed: 400,
   backSpeed: 100,
   backDelay: 3000,
   loop: false,
