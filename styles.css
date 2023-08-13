@@ -15,6 +15,7 @@
 
 body{
     color: var(--primary-color);
+    background-color: var(--background-color);
 }
 
 .header{
@@ -67,6 +68,8 @@ body{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
 }
 
 .navbar a:hover{
@@ -101,6 +104,9 @@ body{
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
+    /* opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s; */
 }
 
 .home-content h3 span{
@@ -156,6 +162,8 @@ body{
     font-size: 16px;
     color: var(--background-color);
     text-decoration: none;
+    font-weight: 600;
+    
 }
 
 .btn-box:hover{
@@ -168,6 +176,49 @@ body{
     transition: 1s;
 }
 
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: var(--secondary-color);
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: var(--primary-color);
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 @keyframes slideRight {
     0%{
         opacity: 0;
@@ -178,3 +229,25 @@ body{
         transform: translateX(0);
     }
 }
+
+@keyframes slideTop {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* @keyframes slideBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
