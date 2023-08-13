@@ -12,8 +12,15 @@ var typed = new Typed(".text", {
 
 var typed1 = new Typed(".text1", {
   strings: [
-    "Hello!",
-    "Let me briefly introduce myself."
+    "Java.",
+    "Python.",
+    "HTML.",
+    "JavaScript.",
+    "CSS.",
+    "React.",
+    "Node.js.",
+    "Express.js.",
+    "MySQL.",
   ],
   typeSpeed: 100,
   backSpeed: 70,

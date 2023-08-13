@@ -48,7 +48,10 @@ body{
     align-items: center;
     list-style: none; /* Remove default list bullets */
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    background: #191d2a;
+    box-shadow: #fff;
+    border-radius: 100px;
   }
   
   .navbar li {
@@ -183,6 +186,12 @@ body{
     align-items: center;
     gap: 1.5rem;
     margin-right: 5%;
+    align-items: center;
+    padding: 70px 10% 0;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
 }
 .about-img img{
     padding-bottom: 20%;
@@ -574,7 +583,8 @@ body{
 }
 .about-text h3 span{
     /* color: var(--secondary-color); */
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bolder;
      /* text-shadow:  0 0 40px var(--secondary-color);  */
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
@@ -583,11 +593,19 @@ body{
 }
 .about-main {
     color: var(--secondary-color);
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: 500;
      /* text-shadow:  0 0 40px var(--secondary-color);  */
     /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px; */
+}
+.portfolio{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15%;
+
 }
   
