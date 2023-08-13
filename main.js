@@ -27,3 +27,13 @@ var typed1 = new Typed(".text1", {
   backDelay: 3000,
   loop: true,
 });
+
+var typed2 = new Typed(".text2", {
+  strings: [
+    "Ahsan Baseer",
+  ],
+  typeSpeed: 600,
+  backSpeed: 100,
+  backDelay: 3000,
+  loop: false,
+});
