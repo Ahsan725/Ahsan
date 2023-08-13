@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: Optima;
 }
 
@@ -178,15 +179,16 @@ body{
 
 .about{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     gap: 1.5rem;
+    margin-right: 5%;
 }
 .about-img img{
     padding-bottom: 20%;
     max-width: 630px;
     height: auto;
-    width: 100%;
+    width: 80%;
     border-radius: 8px;
 }
 .about-text h2{
@@ -254,9 +256,9 @@ body{
     transform: translateY(-10px);
     scale: 125%;
     transition: 0.8s;
-    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
 .services-list div i {
     font-size: 80px;
@@ -489,8 +491,9 @@ body{
  .contact-list i{
     display: inline-block;
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 31px;
     transition: all 0.40s ease;
+    margin-right: 20;
  }
  .contact-list a:hover{
     transform: scale(1.01) translateY(-5px);
@@ -524,7 +527,7 @@ body{
     width: 90%;
     padding: 18px;
     background: #555557;
-    color: black;
+    color: var(--primary-color);
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -556,5 +559,35 @@ body{
     background: #555557;
     font-weight: 300;
     margin-top: 70px;
+}
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+.top i{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+.about-text h3 span{
+    /* color: var(--secondary-color); */
+    font-size: 30px;
+     /* text-shadow:  0 0 40px var(--secondary-color);  */
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.about-main {
+    color: var(--secondary-color);
+    font-size: 30px;
+     /* text-shadow:  0 0 40px var(--secondary-color);  */
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px; */
 }
   
