@@ -639,4 +639,14 @@ body{
     -webkit-text-fill-color: transparent;
     font-size: 35px;
 }
+
+/* Hide Navbar on Small Screens */
+@media screen and (max-width: 1036px) {
+    .navbar {
+      display: none;
+    }
+    
+    /* You can add additional styles or adjustments here */
+  }
+  
   
