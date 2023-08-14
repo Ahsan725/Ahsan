@@ -355,11 +355,6 @@ body{
     margin-top: 50px;
     justify-items: center; 
     /* Center content horizontally */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); /* Adjust the icon size */
-    gap: 15px;
-    margin-top: 30px;
-    text-align: center;
   }
   
   .services-list1 div {
@@ -652,8 +647,328 @@ body{
     
     /* You can add additional styles or adjustments here */
   }
+  /* Viewport meta tag */
+
+/* Responsive layout using Flexbox */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust font size */
+  body {
+    font-size: 16px;
+  }
+
+  /* Single column layout */
+  .sidebar {
+    display: none;
+  }
+
+  /* Touch-friendly links and buttons */
+  .button,
+  a {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  /* Adjust image sizing */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Hamburger menu for navigation */
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: block;
+  }
+}
+/* Original CSS remains unchanged */
+
+/* Hide Navbar on Small Screens */
+@media screen and (max-width: 1036px) {
+    .navbar {
+      display: none;
+    }
+    .navbar.active {
+      display: block;
+      /* Add styles for the mobile navbar */
+    }
+
+    /* You can add additional styles or adjustments here */
+}
+
+/* Responsive layout using Flexbox */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    /* Adjust font size */
+    body {
+        font-size: 16px;
+    }
+
+    /* Single column layout */
+    .sidebar {
+        display: none;
+    }
+
+    /* Touch-friendly links and buttons */
+    .button,
+    a {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    /* Adjust image sizing */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Hamburger menu for navigation */
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu.active {
+        display: block;
+        /* Add styles for the mobile navigation menu */
+    }
+
+    /* Mobile-friendly adjustments for other elements */
+    .header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background: var(--background-color);
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .home-content h3,
+    .home-content h1,
+    .home-content p {
+        font-size: 18px;
+    }
+
+    .about-img img {
+        max-width: 100%;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    /* Adjust other styles as needed for mobile layout */
+}
+
+/* Add these CSS rules to your existing "test.css" file */
+
+/* Header */
+.header {
+    /* ... Your existing header styles ... */
+}
+
+/* Navigation Menu */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Home Section */
+.home {
+    /* ... Your existing home section styles ... */
+}
+
+/* About Section */
+.about-img {
+    /* ... Your existing about image styles ... */
+}
+
+.about-text {
+    /* ... Your existing about text styles ... */
+}
+
+/* Skills and Technologies Section */
+.services {
+    /* ... Your existing services styles ... */
+}
+
+.services-list1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); /* Adjust the icon size */
+    gap: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Portfolio Section */
+.portfolio {
+    /* ... Your existing portfolio styles ... */
+}
+
+/* Contact Section */
+.contact-text {
+    /* ... Your existing contact text styles ... */
+}
+
+.contact-list {
+    /* ... Your existing contact list styles ... */
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 350px) {
+    /* Navigation Menu */
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* About Section */
+    .about-img {
+        margin-top: 20px;
+    }
+    
+    /* Skills and Technologies Section */
+    .services-list1 {
+        margin-top: 20px;
+        gap: 10px;
+    }
+    
+    /* Contact Section */
+    .contact-text {
+        margin-bottom: 20px;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form input[type="submit"],
+    .contact-form textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+/* Add these CSS rules to your existing "test.css" file */
+
+/* Body */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+}
+
+/* ... Rest of your existing CSS ... */
+
+/* Skills and Technologies Section */
+.container {
+    max-width: 100%;
+    padding: 0 15px; /* Add padding only on the sides */
+    margin: 0 auto;
+}
+
+.services-list1 {
+    /* Your existing styles... */
+}
+
+/* ... Rest of your existing CSS ... */
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 350px) {
+    /* ... Your existing media query styles ... */
+    
+    /* Skills and Technologies Section */
+    .container {
+        padding: 0; /* Remove padding for smaller screens */
+    }
+}
+/* Add these CSS rules to your existing "test.css" file */
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif;
+    background-color: #f4f4f4; */
+}
+
+/* ... Rest of your existing CSS ... */
+
+/* Header */
+.header {
+    /* Your existing styles... */
+}
+
+/* ... Rest of your existing CSS ... */
+
+/* Top Button */
+.top {
+    /* Your existing styles... */
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 350px) {
+    /* ... Your existing media query styles ... */
+    
+    /* Skills and Technologies Section */
+    .container {
+        padding: 0;
+    }
+
+    /* Top Button */
+    .top {
+        right: 15px; /* Adjust the positioning of the top button */
+        bottom: 15px; /* Keep it within the visible region */
+    }
+}
 
 
-  
-  
+
   
