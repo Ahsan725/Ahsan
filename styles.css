@@ -598,7 +598,7 @@ body{
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 35px;
+    font-size: 20px;
 }
 .about-main {
     color: var(--primary-color);
@@ -607,17 +607,16 @@ body{
 }
 .about-main:hover {
     color: var(--secondary-color);
-    scale: 1.2;
+    scale: 1.1;
     /* font-weight: bold; */
     transition: 2s;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 20px;
     border-radius: 20px;
     /* box-shadow: 1px 1px 60px rgb(157, 126, 222),
     1px 1px 20px rgba(157, 26, 222); */
-    margin-top: 30px;
+ 
     text-align: center;
     
 }
