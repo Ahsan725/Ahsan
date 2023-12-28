@@ -600,9 +600,10 @@ body{
     /* font-size: 80px; */
     font-weight: bolder;
      /* text-shadow:  0 0 40px var(--secondary-color);  */
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: var(--secondary-color);
     font-size: 20px;
 }
 .about-main {
@@ -610,21 +611,7 @@ body{
     font-size: 15px;
     font-weight: 100;
 }
-.about-main:hover {
-    color: var(--secondary-color);
-    scale: 1.1;
-    /* font-weight: bold; */
-    transition: 2s;
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-radius: 20px;
-    /* box-shadow: 1px 1px 60px rgb(157, 126, 222),
-    1px 1px 20px rgba(157, 26, 222); */
- 
-    text-align: center;
-    
-}
+
 .portfolio{
     position: relative;
     width: 100%;
