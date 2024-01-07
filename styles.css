@@ -373,6 +373,8 @@ body{
     /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .services-list1 div:hover {
@@ -639,8 +641,45 @@ body{
     
     /* You can add additional styles or adjustments here */
   }
-
-
   
+  .subsection{
+    font-size: 38px;
+    color: var(--secondary-color);
+   
+  }
+  .maintitle{
+    font-size: 26px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-contrast{ 
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+.skills-section{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .text-contrast{ 
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .maintitle{
+        font-size: 16px;
+        background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+}
   
   
